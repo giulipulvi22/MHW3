@@ -1,0 +1,228 @@
+body{
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+    width: 100%;
+    font-size: 7vh;
+    color: white;
+    text-align: center;
+}
+
+
+nav{
+    background-color: rgba(191, 133, 99, 0.7);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 15vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 0.5em;
+    z-index: 2;
+}
+
+#menu{
+    display: none;
+}
+
+#link{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 3vw;
+}
+
+#menu div {
+    width: 7vw;
+    height: 0.5vh;
+    background-color: white;
+    margin: 0.7vh 0;
+}
+
+#link a{
+    margin-left: 2vw;
+    z-index: 1;
+    color: white;
+    text-decoration: none;
+}
+
+#link a:hover{
+    font-weight: bold;
+}
+
+#nome{
+    margin-left: 3vw;
+    z-index: 1;
+    font-size: 1.5em;
+    font-weight: bolder;
+    border: 1px solid white;
+    padding: 2px 4px;
+    background-color: rgba(256, 256, 256, 0.3);
+}
+
+header{
+    background-image: url("immagini/PiazzaSanMarco.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;
+    padding-top: 1vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    position: relative;
+}
+
+header::before{
+    content: "";
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+header p{
+    font-size: 0.8em;
+    z-index: 1;
+}
+
+#intestazione{
+    z-index: 1;
+    font-size: 1.5em;
+}
+
+footer{
+    color: white;
+    background-color: rgba(191, 133, 99, 0.7);
+    margin-bottom: 0px;
+    height: 15vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 0.5em;
+    text-transform: capitalize;
+}
+
+#utils{
+    font-size: 1rem;
+    margin-left: 5vw;
+}
+
+footer .logo{
+    margin-right: 5vw;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer img{
+    height: 5vh;
+}
+
+footer p{
+    font-size: 2rem;
+}
+
+@media (max-width:1200px){
+    nav{
+        height: 10vh;
+    }
+    #link{
+        display: none;
+    }
+
+    #menu{
+        display: block;
+        margin-right: 5vw;
+    }
+    section #info{
+        flex-direction: column;
+        font-size: 15px;
+    }
+
+    section #info #map{
+        width: 80vw;
+    }
+}
+
+
+@media(max-width:600px){
+    footer{
+        height: 10vh;
+    }
+
+    footer .logo img{
+        height: 30%;
+    }
+
+    footer .logo p{
+        font-size: 20px;
+    }
+
+    footer #utils{
+        font-size: 15px;
+    }
+}
+
+section{
+    margin: 10vh 0;
+    color: rgba(94, 43, 43, 1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h4{
+    margin: 0;
+}
+
+#map{
+    margin: 5vh 5vw;
+    height:50vh;
+    width: 50vw;
+    font-size: 20px;
+    border: 2px solid rgba(191, 133, 99, 0.7);
+}
+
+#info{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+}
+
+#contatti{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    height: 50vh;
+}
+
+#contatti p{
+    margin: 0;
+}
+
+#contatti div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+#contatti img{
+    margin-right: 5px;
+    height: 25px;
+    width: 25px;
+}
