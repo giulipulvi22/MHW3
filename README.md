@@ -7,6 +7,7 @@
 
 ## DESCRIPTION
 The "MHW3" repository has three sub-directories: "About Us", "Dove Siamo", "Scatta con noi". Each sub-directory contains the HTML, CSS, JS and README files of the relative page.
+The "About Us" and "Dove Siamo" pages are attaiable from every page of the web site from the navbar, insted, the "Scatta con noi" page is reachable only from the "Home" page by the button inside of the header.
 
 ## VISUALS
 
