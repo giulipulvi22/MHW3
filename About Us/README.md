@@ -29,7 +29,7 @@ This web site is divided in 5 sections:
  
 |  If you want to check HTML and CSS's code | If you want to see the GUI |
 |:--------------|:-------------:|
-| Right click on the file (MHW2.html and/or MHW2.css and/or MH2.js |  Install "xampp" |
+| Right click on the file (MHW3.html and/or MHW3.css and/or MHW3.js |  Install "xampp" |
 | Select "open with" | Import the files in OS(C:)/xampp/htdocs/MHW1 |
 | Select your favorite editor | Open "xampp" and run "apaches" |
 | Now you can read the code | Open Chrome and search "localhost/MHW1/MHW1.html" |
