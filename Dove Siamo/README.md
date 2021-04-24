@@ -16,6 +16,7 @@ This web site is divided in 5 sections:
     ### DOVE SIAMO
     The "Dove Siamo" page shows a map obtained from **_"Bing Maps API"_**. This isn't a REST API but I inserted it anyway because it's useful for the page. 
     On the right side of the map there is a list with info & contancts about the shop.
+    **_"Bing Maps API"_**: https://docs.microsoft.com/en-us/
 
 ## VISUALS
 ![image](https://user-images.githubusercontent.com/79788825/115903409-d52ac680-a463-11eb-8418-aed8e834fddf.png)
