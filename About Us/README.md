@@ -17,6 +17,7 @@ This web site is divided in 5 sections:
     The "About Us" page shows at the top of the section infos about the owner of the shop, then there is the whole list of the photographers that work for the shop.
     In this section I used the **_Spotify REST API_** with OAuth2.0 Authentication. Each photographer share his favorite playlist with the costumers that can see the title, 
     the image and can also listen it into Spotify by clicking the Spotify button.
+    **_Spotify REST API_**: https://developer.spotify.com/console/get-playlist/.
 
 ## VISUALS
 
