@@ -40,8 +40,7 @@ function onJson(promise){
     article.appendChild(div);
    
     GetMap(lat, long);
-
-    console.log(promise);
+    
     const newState = promise.location.state;
     const newCountry = promise.location.country;
     const newMoonAltitude = promise.moon_altitude;
@@ -131,12 +130,12 @@ search.addEventListener('click', findPlace);
 
 
 //youtube
-var tag = document.createElement('script');
+let tag = document.createElement('script');
 
       tag.src = "https://www.youtube.com/iframe_api";
-      var firstScriptTag = document.getElementsByTagName('script')[0];
+      let firstScriptTag = document.getElementsByTagName('script')[0];
       firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
-      var player;
+      let player;
       function onYouTubeIframeAPIReady() {
         player = new YT.Player('player', {
           height: '390',
@@ -155,7 +154,7 @@ var tag = document.createElement('script');
       // 5. The API calls this function when the player's state changes.
       //    The function indicates that when playing a video (state=1),
       //    the player should play for six seconds and then stop.
-      var done = false;
+      let done = false;
       function onPlayerStateChange(event) {
         if (event.data == YT.PlayerState.PLAYING && !done) {
           setTimeout(stopVideo, 6000);
