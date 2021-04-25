@@ -6,7 +6,7 @@ const FOTOGRAFI=[
         datanascita: "11-11-1954",
         citta: "Catania",
         datainizio: "08-04-2019",
-        playlist: "1UlglVfuu54mgR4872HBa4"
+        playlist: "1Pz21cQ5rXflabr5O9upF4"
     },
     {
         nome: "Isabella",
@@ -37,7 +37,7 @@ const FOTOGRAFI=[
         datanascita: "21-12-1984",
         citta: "Venezia",
         datainizio: "12-07-1995",
-        playlist: "3eNPlpXIJjI7UFcPRibFg5",
+        playlist: "37i9dQZF1DX4o1oenSJRJd",
         facebook: "",
         instagram: ""
     },
@@ -48,7 +48,7 @@ const FOTOGRAFI=[
         datanascita: "19-06-2002",
         citta: "Catania",
         datainizio: "11-12-2019",
-        playlist: "4Q6hVzvBooI93G7H94vJHi",
+        playlist: "37i9dQZF1DWU13kKnk03AP",
         facebook: "",
         instagram: ""
     },
